@@ -1,0 +1,6 @@
+folium
+haversine
+python-telegram-bot
+bs4
+kml2geojson
+xmltodict
