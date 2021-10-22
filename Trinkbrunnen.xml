@@ -1,0 +1,1860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Trinkbrunnen</name>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Berliner Wasserbetriebe</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.320114,52.42515,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Botanischer Garten
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.302277,52.455401,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saubucht</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.210473,52.476613,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ökowerk Berlin
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.235981,52.491937,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Berliner Wasserbetriebe
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Hinweis: An den Wochenenden nicht öffentlich zugänglich.]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.273316,52.5201,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Metzer Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.197004,52.524986,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Spielplatz Obermeierweg
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.2070189999999,52.534673,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Koeltzepark</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.205975,52.546206,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wasserwerk Tegel
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Hinweis: Nicht öffentlich zugänglich]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.265283,52.576099,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hallen am Borsigturm
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.286876,52.585928,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Greenwichpromenade</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.2744290000001,52.588152,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rathaus-Center Pankow
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.404499,52.569872,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Garbátyplatz</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.411378,52.567312,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Schwimmhalle Zingster Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.5024530000001,52.56604,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lindenbrunnen</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.5630679999999,52.554581,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gärten der Welt
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.576407,52.539895,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gärten der Welt
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.575659,52.534274,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Museum im Wasserwerk
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Hinweis: Nicht öffentlich zugänglich]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.6444,52.447746,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marktplatz Friedrichshagen
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.62411,52.4506,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elcknerplatz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.579374,52.458284,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>FEZ</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.548309,52.461165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rathenauplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.52637,52.458681,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Johannes-Fest-Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.5266,52.48211,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bahnhof Lichtenberg
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.4989909999999,52.510495,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Schlachtensee</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.2301150000001,52.447167,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Schloss Charlottenburg
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.2960909999999,52.519236,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kurfürstendamm</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.3250430000001,52.50273,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fasanenstraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.327677,52.503248,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bhf Kurfürstendamm
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.330428,52.503387,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Freundschaftsplatz/Kanner Platz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.446143,52.472203,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Botanischer Garten
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.409322,52.431508,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alt-Rudow
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.492121,52.420215,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Weserstraße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.427034,52.488349,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Volkspark Friedrichshain
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.432943,52.52854,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bhf. Pankstraße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.381395,52.552523,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gesundbrunnen-Center 
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.387244,52.549683,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vinetaplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.398693,52.541268,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Landesamt für Gesundheit und Soziales</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.34732,52.528372,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stromstraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.342616,52.525751,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bhf. Spittelmarkt
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.401764,52.511032,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brliner Wasserbetriebe (Unternehmenszentrale)
+</name>
+      <description>Betriebszeit: ganzjährig</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.4107710000001,52.515496,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kottbusser Tor 
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.418932,52.498638,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Park am Gleisdreieck
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.372401,52.499452,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marchlewskistraße</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.447411,52.510106,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stadtpark Steglitz
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.335437,52.448661,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bahnhof Berlin Ostbahnhof
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.4339629999999,52.511672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mariannenplatz</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.424589,52.503645,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Königin-Luise-Platz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.304155,52.458526,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Breslauer Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.33519,52.472065,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bäkestraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.317099,52.434163,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bhf. Dahlem-Dorf
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.289889,52.457949,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bhf. Elsterwerdaer Platz
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.560792,52.505947,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Park am Gleisdreieck
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.373641,52.495721,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Helene-Weigel-Platz
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.538472,52.527916,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eastgate</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.543576,52.543057,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leipziger Platz
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.379401,52.509554,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Checkpoint Charlie
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.390153,52.507968,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Unter den Linden
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.386032,52.516778,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fehrbelliner Platz
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.313466,52.490428,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Theodor-Heuss-Platz</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.274037,52.508661,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ludwigkirchplatz</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.322711,52.497724,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wilmersdorfer Straße
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.30605,52.50874,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Max-Taut-Schule</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.487002,52.501307,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nöldner Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.483907,52.502318,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nikolaiviertel</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.406434,52.516611,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Schäfersee</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.361407,52.563287,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brauereihof</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.21126,52.546073,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bhf. Ruhleben
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.241116,52.525831,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wiclefstraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.335446,52.530347,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wilmersdorfer Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.306372,52.507665,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Britzer Garten
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.41474,52.432582,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sommerbad Kreuzberg
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.406199,52.497999,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paul-Junius-Straße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.475479,52.526171,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Werneuchenstraße/Genslerstraße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.498549,52.535475,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Altenhofer Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.484279,52.535512,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wriezener Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.495309,52.542011,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sparrplatz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.360842,52.541653,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rudolfplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.455524,52.504335,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stuttgarter Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.301302,52.505112,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ostseestraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.432122,52.550201,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Falkenhagener Feld
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.178263,52.550231,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wröhmännerpark</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.206759,52.542759,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hohenzollernpark</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.207905,52.555488,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trusepark</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.448475,52.481878,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quartierspark</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.510869,52.491993,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Münsterlandplatz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.496404,52.503526,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Harnackstraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.486094,52.511338,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Türschmidtstraße</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.482354,52.503485,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wildenbruchplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.446437,52.483592,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kummerower Ring
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.585824,52.527367,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Victor-Klemperer-Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.556812,52.546619,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kiezpark Schönagelstraße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.570387,52.548854,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Birkenstraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.339381,52.532935,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sredzkistraße/Rykestraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.42188,52.537846,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bahnhof Residenzstraße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.360174,52.572228,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Senftenberger Ring
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.353194,52.600091,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>S-Bahnhof Lankwitz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.343146,52.438989,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lewaldplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.420266,52.552027,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stadtplatz Marie
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.424365,52.534863,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ahrensfelder Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.566124,52.569912,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bahnhof Krumme Lanke
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.240269,52.442412,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rostocker Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.509175,52.571718,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Volkspark Friedrichshain
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.440618,52.526564,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thomas-Mann-Straße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.446343,52.542012,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Volkspark Köpenick
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.589086,52.440847,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Arndtplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.553602,52.435243,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Planetarium
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.42995,52.542374,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bürgerpark Pankow
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.397924,52.571048,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mierendorffplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.304054,52.525786,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Besselpark</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.391295,52.504158,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bürgerpark Pankow
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.396116,52.568904,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Heinz-Knobloch-Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.411902,52.562345,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Landschaftsschutzgebiet Herzberge
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.508811,52.525367,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Warnitzer Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.519056,52.567121,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Egon-Erwin-Kisch-Straße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.51303,52.567742,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Röthepfuhl</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.508135,52.406752,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Altstadt Spandau
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.206201,52.53868,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Theodor-Wolff-Park</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.39162,52.500986,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Olivaer Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.314957,52.499407,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deutsches Technikmuseum
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.377941,52.496484,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stargader Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.422361,52.544353,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kollwitzplatz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.418305,52.536703,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>S-Bahnhof Wilhelmshagen
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.7209,52.439043,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Friedhof Baumschulenweg
+</name>
+      <description>Betriebszeit: mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.493198,52.460447,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tempelhofer Feld (Eingang Columbiadamm)
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.407019,52.482318,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Temeplhofer Feld (Eingang Tempelhofer Damm)
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.386741,52.471605,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Robert-Rescue-Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.359816,52.550707,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nettelbeckplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.369039,52.544441,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nauener Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.367565,52.551953,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bornholmer Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.39212,52.555436,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Herrfurthplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.422234,52.476613,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lohmühlenbrücke</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.439191,52.489457,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bahnhof Südstern
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.407814,52.489479,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Weberwiese</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.442812,52.516047,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Schreinerstraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.46673,52.517144,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Samariterstraße</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.466938,52.520094,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Karl-Marx-Allee</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.444908,52.517209,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Karl-Marx-Allee</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.438653,52.517787,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Strausberger Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.429307,52.518702,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stadtpark Lichtenberg
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.478319,52.519062,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bahnhof Schloßstraße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.324599,52.461316,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Herrmann-Ehlers-Platz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.322057,52.456744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Nogatstraße</name>
+      <description>Betriebszeit: mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.435509,52.469815,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Schierker Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.43755,52.470041,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Körnerpark</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.43812,52.472091,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leubnitzer Weg
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.172288,52.521374,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leon-Jessel-Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.319599,52.489349,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sderotplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.257834,52.435444,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ludwig-Beck-Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.312794,52.442973,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Marheinekeplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.395851,52.489007,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rhinower Straße/Kopenhagener Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.410037,52.548886,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Antonplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.451041,52.548703,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Adenauerplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.307344,52.500768,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Forckenbeckplatz</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.460949,52.519905,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Münsinger Park
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.198968,52.536052,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pichelsdorfer Straße
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.196968,52.513314,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zeltinger Platz
+</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.290271,52.634398,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fennsee</name>
+      <description>Betriebszeit: Mai bis Oktober</description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.318921,52.483343,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rathaus Neukölln
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.435418,52.480964,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Teltower Damm
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.258964,52.433356,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rathaus Reinickendorf
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.324595,52.588799,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>U-Bahnhof Wilmersdorfer Straße
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.306938,52.50578,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bahnhof Wuhletal
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.57377,52.513234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hohenstaufenplatz</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.423177,52.490896,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Max-Josef-Metzger-Platz</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.36416,52.543768,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Charité</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.380463,52.525697,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alice-Salomon-Platz
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.603953,52.537175,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tierpark Berlin
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.520824,52.503861,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Anton-Saefkow-Platz</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.471391,52.52996,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paul-Lincke-Ufer</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.431231,52.493114,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Park am Gleisdreieck
+</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.37617,52.495308,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Comeniusplatz</name>
+      <description><![CDATA[Betriebszeit: Mai bis Oktober<br>Operating time: May to October]]></description>
+      <styleUrl>#icon-ci-1</styleUrl>
+      <Point>
+        <coordinates>
+          13.448724,52.511354,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
