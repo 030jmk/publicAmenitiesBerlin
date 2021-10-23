@@ -5,7 +5,6 @@ __author__      = "Jan Kopankiewicz"
 
 
 import pandas as pd
-from ipywidgets import HTML
 import folium
 import haversine as hs
 from bs4 import BeautifulSoup
@@ -51,8 +50,7 @@ def marker_text(row):
   nfc = yesno(row[1]["canBePayedWithNFC"])
   table = yesno(row[1]["hasChangingTable"])
   name = row[1]["Street"]
-  return f"<b>{row[1]["Description"]}</b><p>{name}</p><p>price: {price}<br>has urinal: {urinal}<br>👛 takes coins: {coins}<br>📳 NFC: {nfc}<br>🚼 table: {table}<br>♿ accessible: {isAccessible}"
-
+  return "<b>{}</b><p>{}</p><p>price: {}<br>has urinal: {}<br>👛 takes coins: {}<br>📳 NFC: {}<br>🚼 table: {}<br>♿ accessible: {}".format(row[1]["Description"], name,price,urinal,coins,nfc,table,isAccessible)
 
 def location_cal(df,my_location):
   '''Given a DataFrame containing Location and Longitude columns and by providing the a location, 
