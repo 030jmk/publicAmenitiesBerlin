@@ -4,3 +4,5 @@ python-telegram-bot
 bs4
 kml2geojson
 xmltodict
+pandas
+openpyxl
