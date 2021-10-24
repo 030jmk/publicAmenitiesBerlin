@@ -5,6 +5,7 @@ __author__      = "Jan Kopankiewicz"
 
 
 import pandas as pd
+#from ipywidgets import HTML
 import folium
 import haversine as hs
 from bs4 import BeautifulSoup
@@ -14,15 +15,12 @@ from zipfile import ZipFile
 import xmltodict
 
 import logging
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
-from telegram.ext import (
-    Updater,
-    CommandHandler,
-    CallbackQueryHandler,
-    ConversationHandler,
-    CallbackContext,
-    Filters,
-)
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, ReplyKeyboardMarkup
+from telegram.ext import Updater, CallbackQueryHandler, ConversationHandler, CallbackContext, Filters
+from telegram.ext import CommandHandler, MessageHandler
+from telegram import Update, ForceReply, InlineKeyboardButton, InlineKeyboardMarkup, Location, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler, ConversationHandler,PicklePersistence,InlineQueryHandler
+from telegram.error import TelegramError, Unauthorized, BadRequest, TimedOut, ChatMigrated, NetworkError
 
 def com2dot(text):
   if type(text) != 'int':
@@ -51,6 +49,7 @@ def marker_text(row):
   table = yesno(row[1]["hasChangingTable"])
   name = row[1]["Street"]
   return "<b>{}</b><p>{}</p><p>price: {}<br>has urinal: {}<br>👛 takes coins: {}<br>📳 NFC: {}<br>🚼 table: {}<br>♿ accessible: {}".format(row[1]["Description"], name,price,urinal,coins,nfc,table,isAccessible)
+
 
 def location_cal(df,my_location):
   '''Given a DataFrame containing Location and Longitude columns and by providing the a location, 
@@ -124,13 +123,14 @@ def start(update: Update, context: CallbackContext) -> int:
    """Send message on `/start`."""
    user = update.message.from_user
    logger.info("User %s started the conversation.", user.first_name)
+   send_location_keyboard = [[KeyboardButton(text="Send current location",request_location=True)]]
    update.message.reply_text('Help me figure out where you are by sending me your location.',
         reply_markup=ReplyKeyboardMarkup(send_location_keyboard, one_time_keyboard=False))
 
 def button(update: Update, context: CallbackContext) -> None:
     user = update.message.from_user
     user_location = update.message.location
-        
+
     choice_keyboard = [
                        [InlineKeyboardButton("Public Toilet",
                                              callback_data=f"wc,{user_location.latitude},{user_location.longitude}")],
@@ -165,7 +165,7 @@ def pick_one(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     """Run the bot."""
-    updater = Updater("TOKEN")
+    updater = Updater("2057690314:AAHByNjNOVB1AnidNG2zzr-VCcoB9EMG7bE", use_context=True)
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler('start', start))
     dispatcher.add_handler(CallbackQueryHandler(pick_one))
