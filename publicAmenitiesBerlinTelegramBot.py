@@ -5,8 +5,6 @@ __author__      = "Jan Kopankiewicz"
 
 
 import pandas as pd
-#from ipywidgets import HTML
-import folium
 import haversine as hs
 from bs4 import BeautifulSoup
 import requests
@@ -15,11 +13,8 @@ from zipfile import ZipFile
 import xmltodict
 
 import logging
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, ReplyKeyboardMarkup
-from telegram.ext import Updater, CallbackQueryHandler, ConversationHandler, CallbackContext, Filters
-from telegram.ext import CommandHandler, MessageHandler
-from telegram import Update, ForceReply, InlineKeyboardButton, InlineKeyboardMarkup, Location, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler, ConversationHandler,PicklePersistence,InlineQueryHandler
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, Location, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler, ConversationHandler, PicklePersistence,InlineQueryHandler
 from telegram.error import TelegramError, Unauthorized, BadRequest, TimedOut, ChatMigrated, NetworkError
 
 def com2dot(text):
