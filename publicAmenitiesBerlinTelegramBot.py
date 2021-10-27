@@ -5,16 +5,19 @@ __author__      = "Jan Kopankiewicz"
 
 
 import pandas as pd
+import folium
 import haversine as hs
 from bs4 import BeautifulSoup
 import requests
 import kml2geojson
 from zipfile import ZipFile
 import xmltodict
+from datetime import datetime, timezone
 
 import logging
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, Location, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler, ConversationHandler, PicklePersistence,InlineQueryHandler
+
+from telegram import Update, ForceReply, InlineKeyboardButton, InlineKeyboardMarkup, Location, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler, ConversationHandler,PicklePersistence,InlineQueryHandler
 from telegram.error import TelegramError, Unauthorized, BadRequest, TimedOut, ChatMigrated, NetworkError
 
 def com2dot(text):
@@ -33,17 +36,6 @@ def yesno(i):
   else:
     return "no"
 
-def marker_text(row):
-  lat= (row[1]["Latitude"])
-  long= (row[1]["Longitude"])
-  isAccessible = yesno(row[1]["isHandicappedAccessible"])
-  price = "{} EUR".format(row[1]["Price"])
-  urinal = yesno(row[1]["hasUrinal"])
-  coins = yesno(row[1]["canBePayedWithCoins"])
-  nfc = yesno(row[1]["canBePayedWithNFC"])
-  table = yesno(row[1]["hasChangingTable"])
-  name = row[1]["Street"]
-  return "<b>{}</b><p>{}</p><p>price: {}<br>has urinal: {}<br>👛 takes coins: {}<br>📳 NFC: {}<br>🚼 table: {}<br>♿ accessible: {}".format(row[1]["Description"], name,price,urinal,coins,nfc,table,isAccessible)
 
 
 def location_cal(df,my_location):
@@ -61,6 +53,38 @@ def gLink(lat,long):
   #"https://maps.apple.com/maps?q={},{}"
   return 'https://www.google.com/maps/place/{},{}'.format(lat,long)
 
+plz_df=pd.read_csv("PLZ_locations.csv")
+def latlongFromPLZ(plz):
+  """Get a location in lat long from a Postleitzahl"""
+  plz_long = round(plz_df.loc[plz_df['PLZ'] == plz].Longitude.values[0],8)
+  plz_lat = round(plz_df.loc[plz_df['PLZ'] == plz].Latitude.values[0],8)
+  return (plz_lat,plz_long)
+
+def get_police_demo_data():
+  """Return a DataFrame containing the demonstrations or protests listed for today including a rough estimation of where it is happening"""
+  currentDate = datetime.now().strftime("%d.%m.%Y")
+  event_url = "https://www.berlin.de/polizei/service/versammlungsbehoerde/versammlungen-aufzuege/"
+  req = requests.get(event_url)
+  soup = BeautifulSoup(req.content, 'html.parser')
+  table_r = soup.findAll("tr", class_="odd line_1")
+  demo_list = []
+  for row in table_r:
+    try:
+      if row.find("td", class_="text", headers="Datum").text == currentDate:
+        Datum = row.find("td", class_="text", headers="Datum").text
+        Von = row.find("td", class_="text", headers="Von").text
+        Bis = row.find("td", class_="text", headers="Bis").text
+        Thema = row.find("td", class_="text", headers="Thema").text
+        PLZ = int(row.find("td", class_="text", headers="PLZ").text)
+        Versammlungsort = row.find("td", class_="text", headers="Versammlungsort").text
+        Aufzugsstrecke = row.find("td", class_="text", headers="Aufzugsstrecke").text
+        demo_list.append([Datum,Von,Bis,Thema,PLZ,Versammlungsort,Aufzugsstrecke])
+    except:
+      continue
+  demo_df = pd.DataFrame(demo_list, columns=["Datum","Von","Bis","Thema","PLZ","Versammlungsort","Aufzugsstrecke"])
+  demo_df['Latitude'] = demo_df.apply(lambda row: latlongFromPLZ(row.PLZ)[0] ,axis=1)
+  demo_df['Longitude'] = demo_df.apply(lambda row: latlongFromPLZ(row.PLZ)[1] ,axis=1)
+  return(demo_df)
 
 # read location of public toilets into dataframe
 url = "https://www.berlin.de/sen/uvk/_assets/verkehr/infrastruktur/oeffentliche-toiletten/berliner-toiletten-standorte.xlsx"
@@ -130,7 +154,10 @@ def button(update: Update, context: CallbackContext) -> None:
                        [InlineKeyboardButton("Public Toilet",
                                              callback_data=f"wc,{user_location.latitude},{user_location.longitude}")],
                        [InlineKeyboardButton("Potable Water",
-                                             callback_data=f"water,{user_location.latitude},{user_location.longitude}")]]
+                                             callback_data=f"water,{user_location.latitude},{user_location.longitude}")],
+                       [InlineKeyboardButton("Demonstrations",
+                                             callback_data=f"demo,{user_location.latitude},{user_location.longitude}")]]
+
     update.message.reply_text("Which public amenity are you looking to find?",
                               reply_markup=InlineKeyboardMarkup(choice_keyboard))
 
@@ -158,9 +185,21 @@ def pick_one(update: Update, context: CallbackContext) -> None:
       reply_markup_w = InlineKeyboardMarkup(keyboard_w)
       update.effective_message.reply_text("Closest Options:",reply_markup=reply_markup_w)
 
+    if query.data.split(',')[0] == "demo":
+      my_location = float(query.data.split(',')[1]),float(query.data.split(',')[2])
+      Top5demo = location_cal(get_police_demo_data(),my_location)
+      keyboard_demo = [[InlineKeyboardButton(text="~{}km - {}".format(round(Top5demo['Distance'].iloc[0],1),Top5demo['Thema'].iloc[0]), url= "https://maps.apple.com/maps?q={},{} Berlin".format(Top5demo['Versammlungsort'].iloc[0], Top5demo['PLZ'].iloc[0]))],
+                  [InlineKeyboardButton(text="~{}km - {}".format(round(Top5demo['Distance'].iloc[1],1),Top5demo['Thema'].iloc[1]), url= "https://maps.apple.com/maps?q={},{} Berlin".format(Top5demo['Versammlungsort'].iloc[1], Top5demo['PLZ'].iloc[1]))],
+                  [InlineKeyboardButton(text="~{}km - {}".format(round(Top5demo['Distance'].iloc[2],1),Top5demo['Thema'].iloc[2]), url= "https://maps.apple.com/maps?q={},{} Berlin".format(Top5demo['Versammlungsort'].iloc[2], Top5demo['PLZ'].iloc[2]))]]
+      reply_markup_demo = InlineKeyboardMarkup(keyboard_demo)
+      update.effective_message.reply_text("Nearby Protests:",reply_markup=reply_markup_demo)
+
+
+
+
 def main() -> None:
     """Run the bot."""
-    updater = Updater("2057690314:AAHByNjNOVB1AnidNG2zzr-VCcoB9EMG7bE", use_context=True)
+    updater = Updater("TOKEN", use_context=True)
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler('start', start))
     dispatcher.add_handler(CallbackQueryHandler(pick_one))
