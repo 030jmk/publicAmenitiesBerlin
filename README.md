@@ -18,3 +18,8 @@ The bot collects data on public toilets and water fountains from online sources 
 # Dependencies
 - Telegram Bot Token
 - requirements.txt
+
+
+# Video Demo
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=w-p7PnOGD_o" target="_blank"><img src="http://img.youtube.com/vi/w-p7PnOGD_o/0.jpg" 
+alt="Youtube Link" width="240" height="180" border="10" /></a>
