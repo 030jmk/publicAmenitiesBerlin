@@ -1,9 +1,8 @@
-folium
-haversine
-python-telegram-bot
-bs4
-kml2geojson
-xmltodict
-pandas
+requests
 openpyxl
+pandas
+kml2geojson
+bs4
+zipfile
+python-telegram-bot
 datetime
